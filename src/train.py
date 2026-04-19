@@ -8,7 +8,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+from sklearn.metrics import mean_absolute_error, root_mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
@@ -74,7 +74,7 @@ def main() -> None:
     def evaluate(model: Pipeline) -> tuple[float, float, float]:
         predictions = model.predict(X_test)
         mae = mean_absolute_error(y_test, predictions)
-        rmse = mean_squared_error(y_test, predictions, squared=False)
+        rmse = root_mean_squared_error(y_test, predictions)
         r2 = r2_score(y_test, predictions)
         return mae, rmse, r2
 
