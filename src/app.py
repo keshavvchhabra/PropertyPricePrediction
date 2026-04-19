@@ -13,6 +13,7 @@ def load_pipeline() -> PropertyAdvisoryPipeline:
 
 
 def run() -> None:
+    """Main entry point for the Streamlit application."""
     st.set_page_config(page_title="Property Price Prediction + RAG Advisor", page_icon="🏠")
     st.title("Property Price Prediction + RAG Advisor")
     st.caption("User Input -> ML Prediction -> Retrieve Insights -> Generate Advisory Output")
