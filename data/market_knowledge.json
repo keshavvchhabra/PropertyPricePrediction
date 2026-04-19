@@ -1,0 +1,67 @@
+[
+  {
+    "doc_id": "ames-collgcr-flat-1",
+    "title": "CollgCr family housing trend",
+    "city": "Ames",
+    "area": "CollgCr",
+    "property_type": "flat",
+    "summary": "Steady end-user demand, low distress inventory, and moderate new supply support resilient pricing for mid-sized homes.",
+    "market_price_per_sqft": 150.0,
+    "yearly_appreciation_pct": 6.8,
+    "rental_yield_pct": 3.9,
+    "risk_level": "Low",
+    "source": "Local market note Q1"
+  },
+  {
+    "doc_id": "ames-collgcr-villa-1",
+    "title": "CollgCr premium home trend",
+    "city": "Ames",
+    "area": "CollgCr",
+    "property_type": "villa",
+    "summary": "Premium inventory is moving slower than compact units, but larger plots still command a pricing premium when amenities are strong.",
+    "market_price_per_sqft": 168.0,
+    "yearly_appreciation_pct": 5.6,
+    "rental_yield_pct": 3.1,
+    "risk_level": "Medium",
+    "source": "Broker channel synthesis"
+  },
+  {
+    "doc_id": "ames-oldtown-flat-1",
+    "title": "OldTown affordability trend",
+    "city": "Ames",
+    "area": "OldTown",
+    "property_type": "flat",
+    "summary": "Affordable stock keeps transaction volume healthy, though aging inventory creates renovation risk and caps appreciation.",
+    "market_price_per_sqft": 118.0,
+    "yearly_appreciation_pct": 3.4,
+    "rental_yield_pct": 4.2,
+    "risk_level": "Medium",
+    "source": "District transaction digest"
+  },
+  {
+    "doc_id": "ames-nridght-townhouse-1",
+    "title": "NridgHt growth corridor update",
+    "city": "Ames",
+    "area": "NridgHt",
+    "property_type": "townhouse",
+    "summary": "High-income buyer interest and limited resale availability are supporting outsized appreciation in this micro-market.",
+    "market_price_per_sqft": 205.0,
+    "yearly_appreciation_pct": 8.4,
+    "rental_yield_pct": 3.3,
+    "risk_level": "Low",
+    "source": "Growth corridor brief"
+  },
+  {
+    "doc_id": "ames-edwards-independent-1",
+    "title": "Edwards value market pulse",
+    "city": "Ames",
+    "area": "Edwards",
+    "property_type": "independent house",
+    "summary": "Prices remain accessible, but policy uncertainty around infrastructure upgrades creates moderate execution risk for investors.",
+    "market_price_per_sqft": 132.0,
+    "yearly_appreciation_pct": 4.1,
+    "rental_yield_pct": 4.5,
+    "risk_level": "High",
+    "source": "Municipal planning note"
+  }
+]
