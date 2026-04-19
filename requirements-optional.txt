@@ -1,0 +1,3 @@
+faiss-cpu==1.8.0.post1
+openai==1.51.2
+sentence-transformers==3.2.1

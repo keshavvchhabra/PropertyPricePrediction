@@ -134,11 +134,26 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+Optional local extras for FAISS, sentence-transformers, and OpenAI:
+
+```bash
+pip install -r requirements-optional.txt
+```
+
 Start the Streamlit app:
 
 ```bash
 streamlit run src/app.py
 ```
+
+## Streamlit Cloud Deployment
+
+Use the default [requirements.txt](/Users/keshav./Desktop/todayproject/PropertyPricePrediction/requirements.txt:1) for deployment. It keeps the install small and reliable on Streamlit Cloud.
+
+- Base deploy path: scikit-learn + Streamlit + TF-IDF retrieval fallback
+- Optional local path: FAISS + sentence-transformers + OpenAI via [requirements-optional.txt](/Users/keshav./Desktop/todayproject/PropertyPricePrediction/requirements-optional.txt:1)
+
+This app already falls back automatically when optional packages are not installed, so Streamlit Cloud can run without them.
 
 Re-train models if needed:
 
