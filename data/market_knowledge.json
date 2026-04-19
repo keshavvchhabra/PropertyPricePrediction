@@ -1,67 +1,82 @@
 [
   {
-    "doc_id": "ames-collgcr-flat-1",
-    "title": "CollgCr family housing trend",
-    "city": "Ames",
-    "area": "CollgCr",
-    "property_type": "flat",
-    "summary": "Steady end-user demand, low distress inventory, and moderate new supply support resilient pricing for mid-sized homes.",
-    "market_price_per_sqft": 150.0,
-    "yearly_appreciation_pct": 6.8,
-    "rental_yield_pct": 3.9,
-    "risk_level": "Low",
-    "source": "Local market note Q1"
+    "city": "Generic City",
+    "insight": "Properties with higher overall quality ratings tend to have significantly higher sale prices."
   },
   {
-    "doc_id": "ames-collgcr-villa-1",
-    "title": "CollgCr premium home trend",
-    "city": "Ames",
-    "area": "CollgCr",
-    "property_type": "villa",
-    "summary": "Premium inventory is moving slower than compact units, but larger plots still command a pricing premium when amenities are strong.",
-    "market_price_per_sqft": 168.0,
-    "yearly_appreciation_pct": 5.6,
-    "rental_yield_pct": 3.1,
-    "risk_level": "Medium",
-    "source": "Broker channel synthesis"
+    "city": "Generic City",
+    "insight": "Newer properties generally command higher prices due to modern construction and lower maintenance costs."
   },
   {
-    "doc_id": "ames-oldtown-flat-1",
-    "title": "OldTown affordability trend",
-    "city": "Ames",
-    "area": "OldTown",
-    "property_type": "flat",
-    "summary": "Affordable stock keeps transaction volume healthy, though aging inventory creates renovation risk and caps appreciation.",
-    "market_price_per_sqft": 118.0,
-    "yearly_appreciation_pct": 3.4,
-    "rental_yield_pct": 4.2,
-    "risk_level": "Medium",
-    "source": "District transaction digest"
+    "city": "Generic City",
+    "insight": "Neighborhood quality is one of the strongest factors affecting property value."
   },
   {
-    "doc_id": "ames-nridght-townhouse-1",
-    "title": "NridgHt growth corridor update",
-    "city": "Ames",
-    "area": "NridgHt",
-    "property_type": "townhouse",
-    "summary": "High-income buyer interest and limited resale availability are supporting outsized appreciation in this micro-market.",
-    "market_price_per_sqft": 205.0,
-    "yearly_appreciation_pct": 8.4,
-    "rental_yield_pct": 3.3,
-    "risk_level": "Low",
-    "source": "Growth corridor brief"
+    "city": "Generic City",
+    "insight": "Larger living area (square footage) directly increases property price."
   },
   {
-    "doc_id": "ames-edwards-independent-1",
-    "title": "Edwards value market pulse",
-    "city": "Ames",
-    "area": "Edwards",
-    "property_type": "independent house",
-    "summary": "Prices remain accessible, but policy uncertainty around infrastructure upgrades creates moderate execution risk for investors.",
-    "market_price_per_sqft": 132.0,
-    "yearly_appreciation_pct": 4.1,
-    "rental_yield_pct": 4.5,
-    "risk_level": "High",
-    "source": "Municipal planning note"
+    "city": "Generic City",
+    "insight": "Properties with garages and parking space tend to have higher value."
+  },
+  {
+    "city": "Generic City",
+    "insight": "Presence of central air conditioning increases buyer demand and property price."
+  },
+  {
+    "city": "Generic City",
+    "insight": "Higher number of bathrooms and bedrooms increases property attractiveness and price."
+  },
+  {
+    "city": "Generic City",
+    "insight": "Renovated homes (recent remodeling) often sell at higher prices."
+  },
+  {
+    "city": "Generic City",
+    "insight": "Properties with finished basements tend to have higher overall value."
+  },
+  {
+    "city": "Generic City",
+    "insight": "Poor exterior condition can significantly reduce property value."
+  },
+  {
+    "city": "Generic City",
+    "insight": "Properties in areas with good infrastructure and connectivity have higher appreciation potential."
+  },
+  {
+    "city": "Generic City",
+    "insight": "High overall condition rating indicates better maintenance and increases property price."
+  },
+  {
+    "city": "Generic City",
+    "insight": "Corner plots may have higher visibility but not always higher value compared to standard plots."
+  },
+  {
+    "city": "Generic City",
+    "insight": "Properties with modern kitchens and higher kitchen quality ratings sell at premium prices."
+  },
+  {
+    "city": "Generic City",
+    "insight": "Fireplaces and luxury amenities can increase perceived property value."
+  },
+  {
+    "city": "Generic City",
+    "insight": "Older properties may be undervalued but can offer renovation-based investment opportunities."
+  },
+  {
+    "city": "Generic City",
+    "insight": "High demand areas tend to show faster price growth compared to average locations."
+  },
+  {
+    "city": "Generic City",
+    "insight": "Properties with larger lot areas are generally more valuable."
+  },
+  {
+    "city": "Generic City",
+    "insight": "Energy-efficient homes are becoming more desirable and may command higher prices."
+  },
+  {
+    "city": "Generic City",
+    "insight": "Properties with poor functional layout may have lower resale value."
   }
 ]

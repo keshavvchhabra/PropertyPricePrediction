@@ -6,8 +6,8 @@ import pandas as pd
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 
-from advisor.config import Settings
-from advisor.model_service import ModelRegistry
+from model.predictor import FEATURE_COLUMNS, PropertyPricePredictor
+from utils.config import Settings
 
 
 def main() -> None:
@@ -16,19 +16,17 @@ def main() -> None:
     if "SalePrice" in data.columns:
         data = data.rename(columns={"SalePrice": "price"})
 
-    selected_features = ["GrLivArea", "BedroomAbvGr", "FullBath", "YearBuilt", "Neighborhood"]
-    dataset = data[selected_features + ["price"]].dropna()
-
+    dataset = data[FEATURE_COLUMNS + ["price"]].dropna()
     X_train, X_test, y_train, y_test = train_test_split(
-        dataset[selected_features],
+        dataset[FEATURE_COLUMNS],
         dataset["price"],
         test_size=0.2,
         random_state=42,
     )
 
-    registry = ModelRegistry(settings.artifacts_dir)
+    predictor = PropertyPricePredictor(settings.artifacts_dir)
     results = {}
-    for model_name, model in registry.models.items():
+    for model_name, model in predictor.models.items():
         predictions = model.predict(X_test)
         results[model_name] = {
             "mae": round(float(mean_absolute_error(y_test, predictions)), 2),
